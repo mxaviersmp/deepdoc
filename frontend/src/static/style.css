@@ -1,0 +1,177 @@
+.pageBody {
+    overflow:hidden;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.logo {
+    position: relative;
+    box-sizing: content-box;
+    width: 15vw;
+    height: 15vh;
+    left: 3.5vw;
+    top: 1vh;
+}
+
+.grayBar {
+    position: relative;
+    box-sizing: content-box;
+    -ms-transform: rotate(0.00deg);
+    -webkit-transform: rotate(0.00deg);
+    transform: rotate(0.00deg);
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    opacity: 1;
+    cursor: default;
+    background-color: rgba(230, 230, 230, 1);
+    margin: 0.5%;
+    width: 94vw;
+    height: 1vh;
+    left: 4.45vw;
+    top: -1vh;
+}
+
+.occurrences {
+    text-align: left;
+    letter-spacing: 0;
+    opacity: 1;
+}
+
+.keyWords {
+    text-align: left;
+    font: SemiBold 25px/24px Nunito;
+    letter-spacing: 0;
+    color: #555E5E;
+}
+
+.noneFound {
+    position: relative;
+    left: 2vw;
+    top: 3vh;
+}
+
+.term {
+    text-align: left;
+    font: Regular 25px/24px Nunito;
+    letter-spacing: 0;
+    color: #555E5E;
+}
+
+.title {
+    text-align: left;
+    font: SemiBold 25px/50px Nunito;
+    letter-spacing: 0;
+    color: #267BFF;
+    opacity: 1;
+    text-decoration: none;
+}
+
+.occurrencesChip {
+    background: #229556 0% 0% no-repeat padding-box;
+    border-radius: 7px;
+    padding-left: 0.5%;
+    padding-right: 0.5%;
+    opacity: 1;
+    text-align: center;
+    font: Regular 22px/30px Nunito;
+    letter-spacing: 0.4px;
+    color: #FFFFFF;
+}
+
+.categoryChip {
+    background: #229556 0% 0% no-repeat padding-box;
+    border-radius: 15px;
+    padding-left: 0.5%;
+    padding-right: 0.5%;
+    opacity: 1;
+    text-align: center;
+    font: Regular 22px/30px Nunito;
+    letter-spacing: 0.4px;
+    color: #FFFFFF;
+}
+
+.tagChip {
+    background: #DFDFDF 0% 0% no-repeat padding-box;
+    border-radius: 15px;
+    margin-left: 0.5%;
+    padding-left: 0.5%;
+    padding-right: 0.5%;
+    opacity: 1;
+    text-align: center;
+    font: Regular 22px/30px Nunito;
+    letter-spacing: 0.4px;
+    color: #555E5EDE;
+    white-space: pre;
+}
+
+.search {
+    margin-top: 6vh;
+}
+
+.searchBar {
+    position: relative;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: -5px 0px 30px #00000014;
+    border: 1px solid #F1F1F1;
+    border-radius: 31px;
+    opacity: 1;
+    padding: 1%;
+    outline: none;
+    text-align: left;
+    font: Regular 24px/32px SF UI Display;
+    letter-spacing: 0;
+    color: #219555;
+    opacity: 1;
+    width: 69vw;
+    left: 14vw;
+}
+
+.searchButton {
+    position: relative;
+    background: #219555 0% 0% no-repeat padding-box;
+    color: #FFFFFF;
+    box-shadow: 0px 0px 10px #0000004D;
+    padding: 1%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    opacity: 1;
+    outline: none;
+    left: 11vw;
+}
+
+.results {
+    position: relative;
+    left: 10vw;
+}
+
+.categories {
+    table-layout: fixed;
+    max-width: 77vw;
+}
+
+.viewCategories {
+    text-align: left;
+    font: SemiBold 20px/50px Nunito;
+    letter-spacing: 0;
+    color: #7F8585;
+    opacity: 1;
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+.smallGrayBar {
+    position: relative;
+    box-sizing: content-box;
+    border: 1px solid #EFEFEF;
+    opacity: 1;
+    background-color: rgba(230, 230, 230, 1);
+    margin-top: 0.5%;
+    width: 77vw;
+}
