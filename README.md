@@ -14,7 +14,7 @@ To run the backend server run the script: `./run_backend.sh`
 
 To index the files: `localhost:5000/create`
 
-To convert and index new files: `localhost:5000/add/folder?path=<folder-path>`
+To convert and index new files: `localhost:5000/add/folder?path=<folder-path>&ocr=<boolean>`
 
 To perform a search for terms: `localhost:5000/search/terms?query=<term>,<term>,...`
 
