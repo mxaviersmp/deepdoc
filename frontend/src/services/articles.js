@@ -12,7 +12,7 @@ const searchCategory = async search => {
   return response.data
 }
 
-export default { 
+export default {
   searchTerms,
   searchCategory,
 }

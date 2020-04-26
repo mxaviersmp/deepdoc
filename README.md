@@ -29,4 +29,3 @@ To get the pdf file: `localhost:5000/pdf?file=<file-path>&ocr=<boolean>`
 To run the frontend, access the frontend folder and run: `npm install`
 
 Then run: `npm start`
-

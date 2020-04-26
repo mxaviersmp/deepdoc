@@ -20,9 +20,9 @@ const Togglable = React.forwardRef((props, ref) => {
   return (
     <div>
       <div style={hideWhenVisible}>
-        <button className="viewCategories" 
-                type="button" 
-                onClick={toggleVisibility} 
+        <button className="viewCategories"
+                type="button"
+                onClick={toggleVisibility}
                 onKeyDown={toggleVisibility}>Ver categorias <FontAwesomeIcon icon={faSortDown} size="lg"/></button>
       </div>
       <div style={showWhenVisible}>

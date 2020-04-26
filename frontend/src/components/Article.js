@@ -26,7 +26,7 @@ const Article = ({ article }) => {
       </h3>
       <div className="occurrences">
         <span className="keyWords">Palavras-chave: </span>
-          {terms.map(t => 
+          {terms.map(t =>
             <>
               <span className="term">{t[0]}</span>
               {" "}
@@ -41,7 +41,7 @@ const Article = ({ article }) => {
           {categories.map(
             c =>  <tr>
                     <td className="categoryChip">{c[0]}</td>
-                    <td>{c[1].sort(tagComparator).map(k => 
+                    <td>{c[1].sort(tagComparator).map(k =>
                       <span className="tagChip">{` ${k[0]} (${k[1]}) `}</span>
                       )}</td>
                   </tr>

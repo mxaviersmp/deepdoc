@@ -4,7 +4,7 @@ const Navbar = () => {
 
   return (
     <div>
-      <img  src={require('../static/img/logo-deepdoc.png')} 
+      <img  src={require('../static/img/logo-deepdoc.png')}
             alt="logomarca da ferramenta deepdoc"
             className='logo'></img>
       <div className='grayBar' />

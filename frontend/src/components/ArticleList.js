@@ -17,7 +17,7 @@ const ArticleList = (props) => {
  return (
     <div className="results">
       {props.visibleArticles.map(article =>
-        <Article 
+        <Article
           key={article.path}
           article={article}
         />)}
