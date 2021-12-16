@@ -30,4 +30,3 @@ To run the frontend, access the frontend folder and run: `npm install`
 
 Then run: `npm start`
 
-
