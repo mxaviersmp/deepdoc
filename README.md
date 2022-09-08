@@ -1,4 +1,4 @@
-# Projeto deepdoc-petrobras
+# deepdoc-petrobras
 
 ## backend
 
